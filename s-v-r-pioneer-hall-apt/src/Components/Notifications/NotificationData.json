@@ -1,0 +1,14 @@
+[
+    {
+        "alt": "This is a picture to go as the background image",
+        "name": "Clean your Room",
+        "content": "The school year is almost over Make sure you clean your room.",
+        "imagePath": "#"
+    },
+    {
+        "alt": "This is a picture to go as the background image",
+        "name": "WiFi Password wwill be changed at the end of the Sememster",
+        "content": "We will change the WiFi Password at the end of the semester. You will need to contact your RA to get the new WiFi Password. Do not share the WiFi Password.",
+        "imagePath": "#"
+    }
+]

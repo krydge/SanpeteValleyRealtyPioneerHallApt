@@ -1,0 +1,25 @@
+[{
+    "name":"About Us",
+    "link":"/aboutus"
+},
+{
+    "name":"Rooms",
+    "link":"/rooms"
+},
+{
+    "name":"The Building",
+    "link":"/building"
+},
+{
+    "name":"Contact Us",
+    "link":"/contact"
+}
+,
+{
+    "name":"Apply",
+    "link":"/apply"
+},
+{
+    "name":"Pay Rent",
+    "link":"/payrent"
+}]
