@@ -1,8 +1,9 @@
 import MenuContent from "../MenuContent/MenuContent";
-import Logo from '../../logo.svg'
+import Logo from './TempPioneerHallLogo.png';
+import './MenuStyle.css';
 function Menu(){
-    return (<div>
-        <a href = "/"><img src={Logo} alt="Pioneer Hall Aprtments Logo" ></img></a>
+    return (<div id="Menu" >
+        <a href = "/"><img src={Logo} alt="Pioneer Hall Aprtments Logo" id="MenuImage" ></img></a>
         <MenuContent></MenuContent>
     </div>)
 }
