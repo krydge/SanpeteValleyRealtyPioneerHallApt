@@ -1,0 +1,14 @@
+[
+  {
+    "Title": "Pedro the dog",
+    "Description": "Pedro is a beautiful beagle",
+    "src": "/Assets/Beagle.png",
+    "Alt": "A beagle"
+  },
+  {
+    "Title": "Alex the Cat",
+    "Description": "Alex is a beautiful Persian",
+    "src": "/Assets/Persian.png",
+    "Alt": "A Persian"
+  }
+]

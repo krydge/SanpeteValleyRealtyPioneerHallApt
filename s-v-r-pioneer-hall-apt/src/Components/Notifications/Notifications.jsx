@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import data from './NotificationData.json';
+import './NotificationsStyle.css'
 
 function Notifications() {
 
     const [notifications, setNotifications] = useState(data)
     const [index, setIndex] = useState(0);
+    const [closed, setClosed] = useState(false);
     const handleCLick = (e) => {
         if (e.name === "left") {
             if (index === 0) {
@@ -24,17 +26,25 @@ function Notifications() {
         }
     }
     return (
-        <div className="Notifications" key={notifications[index].alt}>
-            <div className="NotificationsContent" style={{backgroundimage : notifications[index].imagePath}}>
-                
-                <h2>{notifications[index].name}</h2>
-                <p>{notifications[index].content}</p>
-            </div>
-            <div className='leftRightButtons'>
-                <button name="left" onClick={handleCLick}>{"<<<"}</button>
-                <button name="right" onClick={handleCLick}>{">>>"}</button>
-            </div>
-        </div>
+        <>
+            {!closed &&
+                <div className="Notifications" key={notifications[index].alt}>
+                    <div className="NotificationsContent" >
+                        <h2>{notifications[index].name}</h2>
+                        <p>{notifications[index].content}</p>
+                    </div>
+                    <div><button onClick={() => setClosed(true)} id="CloseButton">X</button></div>
+                    <div className='leftRightButtons'>
+                        <button name="left" onClick={handleCLick}>{"<<<"}</button>
+                        <button name="right" onClick={handleCLick}>{">>>"}</button>
+                    </div>
+                </div>
+            }
+            {closed &&
+                <div className='OpenButton'><button onClick={() => setClosed(false)} id="OpenButton">V</button></div>
+            }
+        </>
+
     )
 }
 
