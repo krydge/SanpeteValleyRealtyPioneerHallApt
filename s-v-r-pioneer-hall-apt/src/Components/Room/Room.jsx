@@ -9,8 +9,8 @@ import { useState } from "react";
 //     "Title": "Alex the Cat",
 //     "Description": "Alex is a beautiful Persian", "src": "/Assets/Persian.png", "Alt": "A Persian"
 //   }]
-  
-  import data from './Rooms.json'
+
+import data from './Rooms.json'
 
 
 function Room() {
@@ -48,10 +48,12 @@ function Room() {
         {!ZoomImage &&
             <div className="ImageViewer">
                 <div>
-                    <img src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} style={{height: '50vh', cursor: "zoom-in"}}></img>
+                    <img src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} style={{ height: '50vh', cursor: "zoom-in" }}></img>
                     <div>
                         <h2>{imageInfo[index].Title}</h2>
                         <h3>{imageInfo[index].Description}</h3>
+                        <h2 className='RentalType'>{imageInfo[index].rentalType}</h2>
+                        <h3 className='Price'>{imageInfo[index].price} {imageInfo[index].unit} {imageInfo[index].timeSpan}</h3>
                     </div>
                 </div>
                 <button name="left" onClick={handleClick}>{"<<<"}</button>
@@ -59,8 +61,8 @@ function Room() {
             </div>
         }
         {ZoomImage && <div className="Zoomed">
-            <img src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} style={{height: '80vh', cursor: "zoom-out"}}></img>
-            </div>}
+            <img src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} style={{ height: '80vh', cursor: "zoom-out" }}></img>
+        </div>}
     </div>)
 }
 

@@ -1,14 +1,20 @@
 [
   {
-    "Title": "Pedro the dog",
-    "Description": "Pedro is a beautiful beagle",
-    "src": "/Assets/Beagle.png",
-    "Alt": "A beagle"
+    "Title": "Pioneer Hall Sky View",
+    "Description": "This is an arial shot showing the Buildings buetiful location near the school and the mountains at night.",
+    "src": "/Assets/BuildingSkyShot.jpg",
+    "Alt": "Building From the Sky"
   },
   {
-    "Title": "Alex the Cat",
-    "Description": "Alex is a beautiful Persian",
-    "src": "/Assets/Persian.png",
-    "Alt": "A Persian"
+    "Title": "Pioneer Hall Front Entrance",
+    "Description": "This is the Building looking from the parking lot.",
+    "src": "/Assets/BuildingOutside.jpg",
+    "Alt": "Building Front"
+  },
+  {
+    "Title": "Pioneer Hall Street View",
+    "Description": "This is the Building looking from the street.",
+    "src": "/Assets/BuildingOutside2.jpg",
+    "Alt": "Building fromthe street"
   }
 ]

@@ -1,8 +1,53 @@
-[{
-    "Title": "Pedro the dog",
-    "Description": "Pedro is a beautiful beagle", "src": "/Assets/Beagle.png", "Alt": "A beagle"
-  }, {
-    "Title": "Alex the Cat",
-    "Description": "Alex is a beautiful Persian", "src": "/Assets/Persian.png", "Alt": "A Persian"
-  }]
-  
+[
+  {
+    "Title": "Shared Room #1",
+    "Description": "This is one of our beautiful shared rooms",
+    "src": "/Assets/BedRoom1.jpg",
+    "Alt": "shared room 1",
+    "rentalType": "Shared Room",
+    "price": 200.00,
+    "unit": "USD",
+    "timeSpan": "Per Month"
+  },
+  {
+    "Title": "Shared Room #2",
+    "Description": "This is one of our beautiful shared rooms",
+    "src": "/Assets/BedRoom2.jpg",
+    "Alt": "shared room 2",
+    "rentalType": "Shared Room",
+    "price": 200.00,
+    "unit": "USD",
+    "timeSpan": "Per Month"
+  }
+  ,
+  {
+    "Title": "Shared Room #3",
+    "Description": "This is one of our beautiful shared rooms",
+    "src": "/Assets/BedRoom3.jpg",
+    "Alt": "shared room 3",
+    "rentalType": "Shared Room",
+    "price": 200.00,
+    "unit": "USD",
+    "timeSpan": "Per Month"
+  },
+  {
+    "Title": "Bath Room Sinks",
+    "Description": "This is one of our Shared Sinks",
+    "src": "/Assets/BathRoomSinks.jpg",
+    "Alt": "Sinks",
+    "rentalType": null,
+    "price": null,
+    "unit": null,
+    "timeSpan": null
+  },
+  {
+    "Title": "Bath Room",
+    "Description": "This is one of our BathRooms",
+    "src": "/Assets/BathRoom.jpg",
+    "Alt": "ToiletAndShower",
+    "rentalType": null,
+    "price": null,
+    "unit": null,
+    "timeSpan": null
+  }
+]

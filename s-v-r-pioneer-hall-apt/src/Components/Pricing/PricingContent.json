@@ -1,0 +1,13 @@
+[{"id":1,
+    "rentalType":"Sngle Room",
+    "price": 250.00,
+    "unit":"USD",
+    "timeSpan":"Per Month"
+},
+{
+    "id":2,
+    "rentalType":"Shared Room",
+    "price": 200.00,
+    "unit":"USD",
+    "timeSpan":"Per Month"
+}]
