@@ -10,7 +10,7 @@ import ContactForm from './Components/ContactForm/ContactForm';
 import { useState } from 'react';
 
 function App() {
-  const [page, setPage]= useState("/rooms")
+  const [page, setPage]= useState("/")
 console.log(page)
   return (
     <div className="App">

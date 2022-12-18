@@ -10,12 +10,11 @@ const style = {
     alignItems: 'flex-end',
     width: '70vw',
     margin: 'auto',
-    '@media (max-width: 600px)': {
-        display: 'flex',
+    "@media (maxWidth: 600px)": {
         padding: '2vh',
         width: '50vw',
         margin: "auto",
-        flexDirection: 'column'
+
     }
 
 };
