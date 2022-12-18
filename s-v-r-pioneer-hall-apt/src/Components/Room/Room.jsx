@@ -1,18 +1,24 @@
 
 
 import { useState } from "react";
-
-//  const data = [{
-//     "Title": "Pedro the dog",
-//     "Description": "Pedro is a beautiful beagle", "src": "/Assets/Beagle.png", "Alt": "A beagle"
-//   }, {
-//     "Title": "Alex the Cat",
-//     "Description": "Alex is a beautiful Persian", "src": "/Assets/Persian.png", "Alt": "A Persian"
-//   }]
-
 import data from './Rooms.json'
 
+const style = {
+    display: 'flex',
+    flexDirection:'row',
+    padding: '2vh',
+    alignItems: 'flex-end',
+    width: '70vw',
+    margin: 'auto',
+    '@media (max-width: 600px)': {
+        display: 'flex',
+        padding: '2vh',
+        width: '50vw',
+        margin: "auto",
+        flexDirection: 'column'
+    }
 
+};
 function Room() {
     const [imageInfo, setImageInfo] = useState(data);
     const [ZoomImage, setZoomImage] = useState(false);
@@ -44,24 +50,26 @@ function Room() {
             setZoomImage(true)
         }
     }
-    return (<div>
+    return (<div style={{ paddingLeft: 'auto' }}>
         {!ZoomImage &&
-            <div className="ImageViewer">
-                <div>
-                    <img src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} style={{ height: '50vh', cursor: "zoom-in" }}></img>
-                    <div>
-                        <h2>{imageInfo[index].Title}</h2>
-                        <h3>{imageInfo[index].Description}</h3>
-                        <h2 className='RentalType'>{imageInfo[index].rentalType}</h2>
-                        <h3 className='Price'>{imageInfo[index].price} {imageInfo[index].unit} {imageInfo[index].timeSpan}</h3>
+            <div className="ImageViewer" style={style}>
+                <div >
+                    <img src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} style={{ width: '30vw', cursor: "zoom-in", boxShadow: '0 1px 50px 0 rgba(0, 0, 0, 0.2), 0 15px 50px 0 rgba(0, 0, 0, 0.19)', borderRadius: '1%', marginBottom: '1vh' }}></img>
+                    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                        <button name="left" onClick={handleClick} >{"<<<"}</button>
+                        <button name="right" onClick={handleClick}>{">>>"}</button>
                     </div>
                 </div>
-                <button name="left" onClick={handleClick}>{"<<<"}</button>
-                <button name="right" onClick={handleClick}>{">>>"}</button>
+                <div style={{ marginLeft: '3vw' }}>
+                    <h2>{imageInfo[index].Title}</h2>
+                    {/* <h2 className='RentalType'>{imageInfo[index].rentalType}</h2> */}
+                    <h3 className='Price'>{imageInfo[index].price} {imageInfo[index].unit} {imageInfo[index].timeSpan}</h3>
+                    <p>{imageInfo[index].Description}</p>
+                </div>
             </div>
         }
         {ZoomImage && <div className="Zoomed">
-            <img src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} style={{ height: '80vh', cursor: "zoom-out" }}></img>
+            <img src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} style={{ width: '80vw', cursor: "zoom-out" , boxShadow: '0 1px 50px 0 rgba(0, 0, 0, 0.2), 0 15px 50px 0 rgba(0, 0, 0, 0.19)', borderRadius: '1%', marginBottom: '1vh' }}></img>
         </div>}
     </div>)
 }

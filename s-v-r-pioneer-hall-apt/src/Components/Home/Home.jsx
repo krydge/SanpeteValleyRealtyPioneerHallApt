@@ -1,9 +1,12 @@
-import Room from "../Room/Room";
+
+import Building from "../Building/Building";
+import Notifications from '../Notifications/Notifications';
 
 function Home() {
 
     return (<div>
-        <Room />
+        <Notifications></Notifications>
+        <Building></Building>
     </div>)
 }
 

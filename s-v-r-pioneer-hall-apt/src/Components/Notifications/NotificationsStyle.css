@@ -1,5 +1,9 @@
 .Notifications {
-    background-color: #F4783B;
+    display: flex;
+    color: White;
+    padding-left: 5vw;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 h2 {

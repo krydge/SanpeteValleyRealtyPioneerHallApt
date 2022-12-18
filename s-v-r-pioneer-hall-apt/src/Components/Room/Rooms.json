@@ -1,38 +1,38 @@
 [
   {
-    "Title": "Shared Room #1",
-    "Description": "This is one of our beautiful shared rooms",
+    "Title": "Shared Room",
+    "Description": "Looking for a comfortable place with a modern feel? If so, Pioneer Hall is the perfect place for you. Our spacious floor plan layout features both shared or private bedrooms with a twin XL bed, desk, two chairs, 1 floating shelf, and 2 dressers. Other apartment amenities include a couch, a 49 Inch flat screen TV, dishwasher, microwave, central heat and AC, luxury vinyl flooring, ample storage, natural lighting and high speed internet. Worried about sharing with roommates? We select roommates that best fit our residents through our roommate matching survey. Check out our floor plan and come take a tour of our student housing community and see all of the awesome amenities that we have to provide for our residents. There’s no better time to experience living at the best Snow College housing in Ephraim — schedule a tour today!",
     "src": "/Assets/BedRoom1.jpg",
     "Alt": "shared room 1",
     "rentalType": "Shared Room",
-    "price": 200.00,
+    "price": 285.00,
     "unit": "USD",
     "timeSpan": "Per Month"
   },
   {
-    "Title": "Shared Room #2",
-    "Description": "This is one of our beautiful shared rooms",
+    "Title": "Shared Room",
+    "Description": "Looking for a comfortable place with a modern feel? If so, Pioneer Hall is the perfect place for you. Our spacious floor plan layout features both shared or private bedrooms with a twin XL bed, desk, two chairs, 1 floating shelf, and 2 dressers. Other apartment amenities include a couch, a 49 Inch flat screen TV, dishwasher, microwave, central heat and AC, luxury vinyl flooring, ample storage, natural lighting and high speed internet. Worried about sharing with roommates? We select roommates that best fit our residents through our roommate matching survey. Check out our floor plan and come take a tour of our student housing community and see all of the awesome amenities that we have to provide for our residents. There’s no better time to experience living at the best Snow College housing in Ephraim — schedule a tour today!",
     "src": "/Assets/BedRoom2.jpg",
     "Alt": "shared room 2",
     "rentalType": "Shared Room",
-    "price": 200.00,
+    "price": 285.00,
     "unit": "USD",
     "timeSpan": "Per Month"
   }
   ,
   {
-    "Title": "Shared Room #3",
-    "Description": "This is one of our beautiful shared rooms",
+    "Title": "Shared Room",
+    "Description": "Looking for a comfortable place with a modern feel? If so, Pioneer Hall is the perfect place for you. Our spacious floor plan layout features both shared or private bedrooms with a twin XL bed, desk, two chairs, 1 floating shelf, and 2 dressers. Other apartment amenities include a couch, a 49 Inch flat screen TV, dishwasher, microwave, central heat and AC, luxury vinyl flooring, ample storage, natural lighting and high speed internet. Worried about sharing with roommates? We select roommates that best fit our residents through our roommate matching survey. Check out our floor plan and come take a tour of our student housing community and see all of the awesome amenities that we have to provide for our residents. There’s no better time to experience living at the best Snow College housing in Ephraim — schedule a tour today!",
     "src": "/Assets/BedRoom3.jpg",
     "Alt": "shared room 3",
     "rentalType": "Shared Room",
-    "price": 200.00,
+    "price": 285.00,
     "unit": "USD",
     "timeSpan": "Per Month"
   },
   {
     "Title": "Bath Room Sinks",
-    "Description": "This is one of our Shared Sinks",
+    "Description": "Looking for a comfortable place with a modern feel? If so, Pioneer Hall is the perfect place for you. Our spacious floor plan layout features both shared or private bedrooms with a twin XL bed, desk, two chairs, 1 floating shelf, and 2 dressers. Other apartment amenities include a couch, a 49 Inch flat screen TV, dishwasher, microwave, central heat and AC, luxury vinyl flooring, ample storage, natural lighting and high speed internet. Worried about sharing with roommates? We select roommates that best fit our residents through our roommate matching survey. Check out our floor plan and come take a tour of our student housing community and see all of the awesome amenities that we have to provide for our residents. There’s no better time to experience living at the best Snow College housing in Ephraim — schedule a tour today!",
     "src": "/Assets/BathRoomSinks.jpg",
     "Alt": "Sinks",
     "rentalType": null,
@@ -42,7 +42,7 @@
   },
   {
     "Title": "Bath Room",
-    "Description": "This is one of our BathRooms",
+    "Description": "Looking for a comfortable place with a modern feel? If so, Pioneer Hall is the perfect place for you. Our spacious floor plan layout features both shared or private bedrooms with a twin XL bed, desk, two chairs, 1 floating shelf, and 2 dressers. Other apartment amenities include a couch, a 49 Inch flat screen TV, dishwasher, microwave, central heat and AC, luxury vinyl flooring, ample storage, natural lighting and high speed internet. Worried about sharing with roommates? We select roommates that best fit our residents through our roommate matching survey. Check out our floor plan and come take a tour of our student housing community and see all of the awesome amenities that we have to provide for our residents. There’s no better time to experience living at the best Snow College housing in Ephraim — schedule a tour today!",
     "src": "/Assets/BathRoom.jpg",
     "Alt": "ToiletAndShower",
     "rentalType": null,
