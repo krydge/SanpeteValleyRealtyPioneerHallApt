@@ -50,10 +50,10 @@ function Building() {
     {!ZoomImage &&
         <div className="ImageViewer" style={style}>
             <div >
-                <img src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} style={{ width: '30vw', cursor: "zoom-in", boxShadow: '0 1px 50px 0 rgba(0, 0, 0, 0.2), 0 15px 50px 0 rgba(0, 0, 0, 0.19)', borderRadius: '1%', marginBottom: '1vh' }}></img>
+                <img className="buildingImage" src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} ></img>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <button name="left" onClick={handleClick} >{"<<<"}</button>
-                    <button name="right" onClick={handleClick}>{">>>"}</button>
+                    <button className="imageButton" class='fa fa-arrow-left' name="left" onClick={handleClick} ></button>
+                    <button className="imageButton" class='fa fa-arrow-right' name="right" onClick={handleClick}></button>
                 </div>
             </div>
             <div style={{ marginLeft: '3vw' }}>
@@ -65,7 +65,7 @@ function Building() {
         </div>
     }
     {ZoomImage && <div className="Zoomed">
-        <img src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} style={{ width: '70vw', cursor: "zoom-out", boxShadow: '0 1px 50px 0 rgba(0, 0, 0, 0.2), 0 15px 50px 0 rgba(0, 0, 0, 0.19)', borderRadius: '1%', marginBottom: '1vh'  }}></img>
+        <img src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} style={{ width: '100vw', cursor: "zoom-out", boxShadow: '0 1px 50px 0 rgba(0, 0, 0, 0.2), 0 15px 50px 0 rgba(0, 0, 0, 0.19)', borderRadius: '1%', marginBottom: '1vh'  }}></img>
     </div>}
 </div>)
 }

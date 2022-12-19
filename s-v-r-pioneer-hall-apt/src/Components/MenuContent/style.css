@@ -102,4 +102,30 @@
         text-decoration: none;
         color: #F4783B;
     }
+
+    #MenuContentul button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 1vw;
+        transition: .2s;
+        background-color: #003668;
+        border: none;
+        color:#F4783B;
+    
+    }
+    #MenuContentul button:hover{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 1vw;
+        transition: .2s;
+        background-color: #F4783B;
+        border: none;
+        color:#003668;
+        border-radius: 4%;
+    
+    }
 }

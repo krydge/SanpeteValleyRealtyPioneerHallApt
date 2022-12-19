@@ -10,25 +10,27 @@ import ContactForm from './Components/ContactForm/ContactForm';
 import { useState } from 'react';
 
 function App() {
-  const [page, setPage]= useState("/")
-console.log(page)
+  const [page, setPage] = useState("/")
+  console.log(page)
   return (
     <div className="App">
-      <Menu parentCallBack = {setPage}></Menu>
-      {page==="/"&&
-      <Home />
+      <Menu parentCallBack={setPage}></Menu>
+      {page === "/" &&
+        <Home />
       }
-      {page==="/rooms"&&
-      <Room />
+      {page === "/rooms" &&
+        <Room />
       }
-      {page==="/building"&&
-      <Building />
+      {page === "/aboutus" &&
+        <Room />
       }
-      {page==="/contact"&&
-      <ContactForm />
+      {page === "/building" &&
+        <Building />
       }
-      
-      <Footer></Footer>
+      {page === "/contact" &&
+        <ContactForm />
+      }
+      <Footer parentCallBack={setPage}></Footer>
     </div>
   );
 }

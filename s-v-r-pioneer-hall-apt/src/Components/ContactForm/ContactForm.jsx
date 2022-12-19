@@ -98,7 +98,7 @@ function ContactForm() {
 
       <div style={{margin:'2vh'}}>
         {!readyTosend && <a style={submitButtonNotValid}>Submit</a>}
-        {readyTosend && <a href={`mailto:tammy@sanpetevalleyrealty ?subject=${formData.ContactName}&body=From: ${formData.ContactName}%0d%0aPhone Number: ${formData.Phone}%0d%0a${formData.Message} `} style={submitButtonValid}>Submit</a>}
+        {readyTosend && <a href={`mailto:tammy@sanpetevalleyrealty.com ?subject=${formData.ContactName}&body=From: ${formData.ContactName}%0d%0aPhone Number: ${formData.Phone}%0d%0a${formData.Message} `} style={submitButtonValid}>Submit</a>}
       </div>
 
     </form>

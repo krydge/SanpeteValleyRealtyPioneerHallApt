@@ -2,22 +2,8 @@
 
 import { useState } from "react";
 import data from './Rooms.json'
+import './Rooms.css'
 
-const style = {
-    display: 'flex',
-    flexDirection:'row',
-    padding: '2vh',
-    alignItems: 'flex-end',
-    width: '70vw',
-    margin: 'auto',
-    "@media (maxWidth: 600px)": {
-        padding: '2vh',
-        width: '50vw',
-        margin: "auto",
-
-    }
-
-};
 function Room() {
     const [imageInfo, setImageInfo] = useState(data);
     const [ZoomImage, setZoomImage] = useState(false);
@@ -51,12 +37,12 @@ function Room() {
     }
     return (<div style={{ paddingLeft: 'auto' }}>
         {!ZoomImage &&
-            <div className="ImageViewer" style={style}>
+            <div className="ImageViewer" >
                 <div >
-                    <img src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} style={{ width: '30vw', cursor: "zoom-in", boxShadow: '0 1px 50px 0 rgba(0, 0, 0, 0.2), 0 15px 50px 0 rgba(0, 0, 0, 0.19)', borderRadius: '1%', marginBottom: '1vh' }}></img>
+                    <img className="roomImage" src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} ></img>
                     <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                        <button name="left" onClick={handleClick} >{"<<<"}</button>
-                        <button name="right" onClick={handleClick}>{">>>"}</button>
+                        <button name="left" className="imageButton" class='fa fa-arrow-left'onClick={handleClick} ></button>
+                        <button name="right" className="imageButton" class='fa fa-arrow-right'onClick={handleClick}></button>
                     </div>
                 </div>
                 <div style={{ marginLeft: '3vw' }}>
@@ -68,7 +54,7 @@ function Room() {
             </div>
         }
         {ZoomImage && <div className="Zoomed">
-            <img src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} style={{ width: '80vw', cursor: "zoom-out" , boxShadow: '0 1px 50px 0 rgba(0, 0, 0, 0.2), 0 15px 50px 0 rgba(0, 0, 0, 0.19)', borderRadius: '1%', marginBottom: '1vh' }}></img>
+            <img src={process.env.PUBLIC_URL + imageInfo[index].src} alt={imageInfo[index].Alt} onClick={Zoom} style={{ width: '100vw', cursor: "zoom-out" , boxShadow: '0 1px 50px 0 rgba(0, 0, 0, 0.2), 0 15px 50px 0 rgba(0, 0, 0, 0.19)', borderRadius: '1%', marginBottom: '1vh' }}></img>
         </div>}
     </div>)
 }

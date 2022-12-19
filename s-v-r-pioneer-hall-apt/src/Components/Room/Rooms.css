@@ -1,0 +1,60 @@
+.imageButton{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    
+}
+.ImageViewer{
+        display: flex;
+        flex-direction:row;
+        padding: 2vh;
+        align-items: flex-end;
+        width: 70vw;
+        margin: auto;
+}
+
+.fa-arrow-left{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+
+
+}
+.fa-arrow-right{
+
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+    height:5vw;
+
+
+}
+
+.roomImage {
+    width: 30vw;
+    cursor: zoom-in;
+    box-shadow: 0 1px 50px 0 rgba(0, 0, 0, 0.2), 0 15px 50px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1%;
+    margin-bottom: 1vh;
+}
+
+@media (max-width:800px) {
+    .roomImage {
+        width: 80vw;
+        cursor: zoom-in;
+        box-shadow: 0 1px 50px 0 rgba(0, 0, 0, 0.2), 0 15px 50px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 1%;
+        margin-bottom: 1vh;
+        transition: .2s;
+    }
+    .ImageViewer{
+        align-items: center;flex-direction: column;
+        transition: .2s;
+    }
+}
