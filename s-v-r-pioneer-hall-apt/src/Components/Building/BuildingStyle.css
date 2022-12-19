@@ -9,6 +9,7 @@
 
 }
 
+
 .fa-arrow-left {
     background: none;
     color: inherit;
@@ -34,7 +35,7 @@
     cursor: zoom-in;
     box-shadow: 0 1px 50px 0 rgba(0, 0, 0, 0.2), 0 15px 50px 0 rgba(0, 0, 0, 0.19);
     border-radius: 1%;
-    margin-bottom: 1vh;
+
 }
 
 @media (max-width:800px) {
@@ -43,6 +44,6 @@
         cursor: zoom-in;
         box-shadow: 0 1px 50px 0 rgba(0, 0, 0, 0.2), 0 15px 50px 0 rgba(0, 0, 0, 0.19);
         border-radius: 1%;
-        margin-bottom: 1vh;
+
     }
 }
