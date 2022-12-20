@@ -1,0 +1,42 @@
+[
+    {
+        "Name": "Private and Shared Bedrooms Available",
+        "key": 1
+    },
+    {
+        "Name": "Fully Furnished",
+        "key": 2
+    },
+    {
+        "Name": "High Speed Internet",
+        "key": 3
+    },
+    {
+        "Name": "Dishwasher and Microwave",
+        "key": 4
+    },
+    {
+        "Name": "Central Heat and AC",
+        "key": 5
+    },
+    {
+        "Name": "Luxury Vinyl Flooring",
+        "key": 6
+    },
+    {
+        "Name": "Ample Storage",
+        "key": 7
+    },
+    {
+        "Name": "Modern Feel",
+        "key": 8
+    },
+    {
+        "Name": "Natural Lighting",
+        "key": 9
+    },
+    {
+        "Name": "Spacious Floor Plan Layout",
+        "key": 10
+    }
+]

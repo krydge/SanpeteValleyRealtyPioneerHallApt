@@ -1,7 +1,7 @@
 [
 {
-    "name":"Rooms",
-    "link":"/rooms"
+    "name":"Gallery",
+    "link":"/gallery"
 },
 {
     "name":"The Building",
@@ -10,5 +10,15 @@
 {
     "name":"Contact Us",
     "link":"/contact"
+}
+,
+{
+    "name":"Amenities",
+    "link":"/amenities"
+}
+,
+{
+    "name":"FAQ",
+    "link":"/faq"
 }
 ]

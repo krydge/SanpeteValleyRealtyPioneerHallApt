@@ -1,0 +1,58 @@
+[{
+    "key":1,
+    "question":"How do I pay rent?",
+    "answer":"Rent can be paid in a variety of ways. You are more than welcome to pay with a check or money order in the office and we also accept credit, debit, and e-checks through our resident portal."
+},
+{
+    "key":2,
+    "question":"When is rent due?",
+    "answer":"Rent is due on the first of each month until the expiration of your lease agreement."
+}
+,
+{
+    "key":3,
+    "question":"How are roommates picked and when do stdents get these results?",
+    "answer":"Our team takes roommate matching very seriously. We ask all new residents to fill out a roommate matching survey when you get signed up. This survey asks various questions about the resident’s lifestyle and personality. Our team hand selects the best fit for our residents. We send our unit assignments and roommate contact info during the summer prior to move in."
+}
+,
+{
+    "key":4,
+    "question":"Can friends rom together?",
+    "answer":"Friends can absolutely room together! Let us know in your roommate matching survey who you would like to be placed with and once all parties have signed lease agreements you will be moved into the same unit! We recommend signing up early so we can guarantee your roommate preferences!"
+}
+,
+{
+    "key":5,
+    "question":"Can residents have overnight guests?",
+    "answer":"Absolutely! Consult your lease agreement to see how many days and how many guests you can host in your unit at a specific time!"
+}
+,
+{
+    "key":6,
+    "question":"Can students bring a car and is parking available?",
+    "answer":"Yes! Please speak with a leasing specialist about what parking option is best for you. We offer 3 onsite parking options as well as free parking at the PARTA garage located 1 block from the property."
+}
+,
+{
+    "key":7,
+    "question":"Can residents cancel their contracts?",
+    "answer":"We do not allow you to break your lease contract, however we do allow all residents to go through the release process outlined in your lease agreement. Ask a leasing specialist how you can be released from your contract prior to the lease end date."
+}
+,
+{
+    "key":8,
+    "question":"When will I know where I will be living?",
+    "answer":"Our team will contact you as soon as your apartment location has been locked in! Stay tuned for our annual “Placement Party” to learn more about how you can pick your specific unit number."
+}
+,
+{
+    "key":9,
+    "question":"Do I need rental insurance for my personal belongings?",
+    "answer":"Yes. We do require each resident to purchase and maintain an active renters insurance policy."
+}
+,
+{
+    "key":10,
+    "question":"Who should I contact if I have a maintenance problem?",
+    "answer":"You can put in a maintenance request online via Hemlaine"
+}]

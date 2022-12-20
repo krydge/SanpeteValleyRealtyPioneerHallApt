@@ -21,7 +21,7 @@ function Footer(params) {
                     </div>
                     <div className="Email" style={{ textAlign: 'left', justifyContent: 'flex-start' }}>
                         <h4 >Email</h4>
-                        <button  style={buttonStyle} onClick={() => (params.parentCallBack('/contact'))}>Tammy@sanpetevalleyrealty.com</button>
+                        <button style={buttonStyle} onClick={() => (params.parentCallBack('/contact'))}>Tammy@sanpetevalleyrealty.com</button>
                     </div>
                     <div className="Address" style={{ textAlign: 'left', justifyContent: 'flex-start' }}>
                         <h4>Address</h4>
@@ -42,6 +42,33 @@ function Footer(params) {
             </div>
             <div>
                 <p>© 2022 Pioneer Hall Apartments in Ephraim Utah. Managed by Sanpete Valley Realty. Develouped By RydgeInc</p>
+            </div>
+            <div className="textwidget">
+                <div className="wpb_wrapper">
+                    <h4>Address</h4>
+                    <p>168 N 300 E<br />
+                        <span className="locality">Ephraim,&nbsp;</span>
+                        <span className="region">UT&nbsp;</span>
+                        <span className="postal-code">84627</span>
+                    </p>
+                </div>
+                <a target="_blank" href="https://www.google.com/maps/dir//pioneer+hall+apartments+ephraim/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x874c718c359dc7b1:0x9d54a4ce643b4f3a?sa=X&ved=2ahUKEwjJ2K7uyffnAhUWsZ4KHULtBhwQ9RcwDHoECAwQEQ"  data-hover-text-color-override="#fff" rel="noopener">
+                    <span>Get Directions</span>
+                </a>
+            </div>
+            <div className="SocialMediaLinks">
+                <li>
+                    <a target="_blank" rel="noopener" href="https://www.facebook.com/PioneerHallApartments" data-placeholder-negative-three="PIONEERHALLAPARTMENTS">
+                        <span className="screen-reader-text">facebook</span>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" rel="noopener" href="https://www.instagram.com/pioneerhall/" data-placeholder-negative-three="PIONEERHALL">
+                        <span className="screen-reader-text">instagram</span>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
             </div>
         </div>
     )

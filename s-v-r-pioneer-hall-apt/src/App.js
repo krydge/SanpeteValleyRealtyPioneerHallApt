@@ -1,13 +1,14 @@
-
 import './App.css';
 import Menu from './Components/Menu/Menu'
 import Home from './Components/Home/Home';
-
 import Footer from './Components/Footer/Footer'
 import Room from './Components/Room/Room';
 import Building from './Components/Building/Building';
 import ContactForm from './Components/ContactForm/ContactForm';
 import { useState } from 'react';
+import Amenities from './Components/Amenity/Amenitie';
+import Qa from './Components/Faq/Qa';
+
 
 function App() {
   const [page, setPage] = useState("/")
@@ -18,7 +19,7 @@ function App() {
       {page === "/" &&
         <Home />
       }
-      {page === "/rooms" &&
+      {page === "/gallery" &&
         <Room />
       }
       {page === "/aboutus" &&
@@ -30,6 +31,13 @@ function App() {
       {page === "/contact" &&
         <ContactForm />
       }
+      {page === "/amenities" &&
+        <Amenities/>
+      }
+      {page === "/faq" &&
+      <Qa/>
+      }
+
       <Footer parentCallBack={setPage}></Footer>
     </div>
   );

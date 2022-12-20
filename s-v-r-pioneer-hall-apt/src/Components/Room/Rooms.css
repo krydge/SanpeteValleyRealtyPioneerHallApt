@@ -43,6 +43,17 @@
     border-radius: 1%;
     margin-bottom: 1vh;
 }
+.Gallery{
+    display: flex;
+    width:95vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.GalleryImg{
+    height: 40vh;
+    margin:1vw;
+}
 
 @media (max-width:800px) {
     .roomImage {
