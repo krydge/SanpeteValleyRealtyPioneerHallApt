@@ -1,0 +1,39 @@
+
+[
+    {
+        "Name": "Online Payments Available",
+        "key": 1
+    },
+    {
+        "Name": "Controlled Access",
+        "key": 2
+    },
+    {
+        "Name": "On-Site Laundry Facility",
+        "key": 3
+    },
+    {
+        "Name": "1 Block from Snow College",
+        "key": 4
+    },
+    {
+        "Name": "On-Site Parking",
+        "key": 5
+    },
+    {
+        "Name": "On-Site Management",
+        "key": 6
+    },
+    {
+        "Name": "Pool Table",
+        "key": 7
+    },
+    {
+        "Name": "Student Lounge",
+        "key": 8
+    },
+    {
+        "Name": "TV Lounge",
+        "key": 9
+    }
+]

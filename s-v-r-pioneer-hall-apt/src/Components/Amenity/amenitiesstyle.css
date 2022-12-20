@@ -1,0 +1,31 @@
+.Amenities{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    width:90vw;
+    justify-content: center;
+    align-content: center;
+    font-size: larger;
+    
+}
+.contentLists{
+    border-top: 3px solid #003668;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    font-size: large;
+}
+
+.ApartmentList ul{
+   text-align:  left;
+   font-size: large;
+}
+
+.CommunityList ul{
+    text-align:  left;
+    font-size: large;
+ }

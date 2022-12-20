@@ -17,8 +17,6 @@ min-width: 60px;
 
 
 @media (max-width:600px) {
-    
-
     #Menu{
         display: flex;
         flex-direction: column;
@@ -27,7 +25,6 @@ min-width: 60px;
         justify-content: space-between;
         margin-bottom: 0;
     }
-
     img#MenuImage {
         width: 10vw;
         padding-left: 0;

@@ -25,13 +25,13 @@ function Notifications() {
         }
     }
 
-
     return (
-        <div className="Notifications" key={notifications[index].alt}
-            style={{ float: 'center', backgroundImage: 'url(https://pioneerhallapt.com/wp-content/uploads/2020/02/ph.jpg)', height: '50vh' }}>
-            <div className="NotificationsContent" style={{ maxWidth: '35vw' }}>
-                <h1>{notifications[index].name}</h1>
-                <h2>{notifications[index].content}</h2>
+        <div>
+            <div className="Notifications" key={notifications[index].alt} style={{ float: 'center', height: '50vh', backgroundImage:`url(${process.env.PUBLIC_URL}"/Assets/banner.png")`}}>
+                <div className="NotificationsContent" >
+                    <h1>{notifications[index].name}</h1>
+                    <h2>{notifications[index].content}</h2>
+                </div>
             </div>
         </div>
     )
