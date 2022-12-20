@@ -1,3 +1,5 @@
+
+import './FooterStyle.css'
 function Footer(params) {
     const styleFirst = { display: 'flex', flexDirection: 'column', borderTop: '3px solid #bbb', marginTop: '5vh' }
     const styleInfo = { display: 'flex', flexDirection: 'row', padding: '1vh', justifyContent: 'space-around', alignContent: 'space-around', flexWrap: 'wrap' }
@@ -58,14 +60,12 @@ function Footer(params) {
             </div>
             <div className="SocialMediaLinks">
                 <li>
-                    <a target="_blank" rel="noopener" href="https://www.facebook.com/PioneerHallApartments" data-placeholder-negative-three="PIONEERHALLAPARTMENTS">
-                        <span className="screen-reader-text">facebook</span>
+                    <a target="_blank" rel="noopener" href="https://www.facebook.com/PioneerHallApartments" data-placeholder-negative-three="PIONEERHALLAPARTMENTS"> 
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li>
                     <a target="_blank" rel="noopener" href="https://www.instagram.com/pioneerhall/" data-placeholder-negative-three="PIONEERHALL">
-                        <span className="screen-reader-text">instagram</span>
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                     </a>
                 </li>

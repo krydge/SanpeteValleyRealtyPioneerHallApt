@@ -1,0 +1,16 @@
+.SocialMediaLinks li{
+ 
+    text-decoration: none !important;
+    list-style-type: none;
+}
+
+.textwidget a{
+    text-decoration: none !important;
+    list-style-type: none;
+}
+
+.SocialMediaLinks a{
+ width: 30vw;
+    text-decoration: none !important;
+    list-style-type: none;
+}
