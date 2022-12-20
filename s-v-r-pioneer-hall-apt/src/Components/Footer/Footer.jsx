@@ -23,7 +23,7 @@ function Footer(params) {
                     </div>
                     <div className="Email" style={{ textAlign: 'left', justifyContent: 'flex-start' }}>
                         <h4 >Email</h4>
-                        <button style={buttonStyle} onClick={() => (params.parentCallBack('/contact'))}>Tammy@sanpetevalleyrealty.com</button>
+                        <button style={buttonStyle} onClick={() => (params.parentCallBack('/contact'))}><b>Tammy@sanpetevalleyrealty.com</b></button>
                     </div>
                     <div className="Address" style={{ textAlign: 'left', justifyContent: 'flex-start' }}>
                         <h4>Address</h4>
@@ -43,7 +43,7 @@ function Footer(params) {
 
             </div>
             <div>
-                <p>© 2022 Pioneer Hall Apartments in Ephraim Utah. Managed by Sanpete Valley Realty. Develouped By RydgeInc</p>
+                <p>© 2022 Pioneer Hall Apartments in Ephraim Utah. Managed by Sanpete Valley Realty. Developed By RydgeInc</p>
             </div>
             <div className="textwidget">
                 <div className="wpb_wrapper">
