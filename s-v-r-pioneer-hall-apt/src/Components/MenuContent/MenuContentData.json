@@ -17,4 +17,9 @@
     "name":"FAQ",
     "link":"/faq"
 }
+,
+{
+    "name":"Floor Plan/Pricing",
+    "link":"/floorplan"
+}
 ]

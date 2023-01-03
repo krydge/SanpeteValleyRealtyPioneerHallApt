@@ -1,0 +1,12 @@
+.ApplyNow {
+    background-color: #F4783B;
+    border: 1px solid #F4783c;
+    border-radius: 5px;
+    color: #fff;
+    margin:35px;
+    padding: 0px 15px 20px 15px;
+    font-size: 5vw;
+    font-weight: 400;
+    text-decoration: none;
+    opacity:1;
+}

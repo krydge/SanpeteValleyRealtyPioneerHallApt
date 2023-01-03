@@ -1,0 +1,42 @@
+.GalleryButton {
+    background-color: #F4783B;
+    text-decoration: none;
+    width: 50vw;
+    color: #003668;
+    border: 1px solid #F4783c;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 0px 10px 0px;
+    font-size: 5vw;
+    font-weight: 400;
+}
+
+.GalleryButton:hover {
+    background-color: #003668;
+    text-decoration: none;
+    color: #F4783B;
+    border: 1px solid #003668;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 0px 10px 0px;
+    font-size: 5vw;
+    font-weight: 400;
+
+}
+
+.GalleryButtonContainer {
+   
+    height: 70vh;
+    color: #F4783B;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    align-content: center;
+    display: flex;
+}
+
+.GalleryButtonContainer h1 {
+    margin: 10px;
+}

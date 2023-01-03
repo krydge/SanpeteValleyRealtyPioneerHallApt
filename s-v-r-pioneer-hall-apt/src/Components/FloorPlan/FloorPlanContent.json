@@ -1,0 +1,24 @@
+[{
+    "Title": "Shared Floor Plan",
+    "Description": "The Pioneer Hall 3 Bedroom 2 Bathroom fills up fast!  Don’t Wait and Sign a Lease today!",
+    "src": "/Assets/SharedFloorPlan.png",
+    "Alt": "Shared Floor Plan",
+    "rentalType": null,
+    "price": 325,
+    "unit": "Shared Room is starting at $",
+    "semesterPrice": 1250,
+    "alt":"SharedRoom"
+
+}
+    ,
+{
+    "Title": "Private Floor Plan",
+    "Description": "The Pioneer Hall 3 Bedroom 2 Bathroom fills up fast!  Don’t Wait and Sign a Lease today!",
+    "src": "/Assets/PrivateFloorPlan.png",
+    "Alt": "Private Floor Plan",
+    "rentalType": null,
+    "price": 625,
+    "unit": "Private Room is starting at $",
+    "timeSpan": null,
+    "alt":"PrivateRoom"
+}]

@@ -8,6 +8,7 @@ import ContactForm from './Components/ContactForm/ContactForm';
 import { useState } from 'react';
 import Amenities from './Components/Amenity/Amenitie';
 import Qa from './Components/Faq/Qa';
+import FloorPlan from './Components/FloorPlan/FloorPlan';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
     <div className="App">
       <Menu parentCallBack={setPage}></Menu>
       {page === "/" &&
-        <Home />
+        <Home parentCallBack={setPage}/>
       }
       {page === "/gallery" &&
         <Room />
@@ -36,6 +37,9 @@ function App() {
       }
       {page === "/faq" &&
       <Qa/>
+      }
+      {page === "/floorplan" &&
+      <FloorPlan/>
       }
 
       <Footer parentCallBack={setPage}></Footer>

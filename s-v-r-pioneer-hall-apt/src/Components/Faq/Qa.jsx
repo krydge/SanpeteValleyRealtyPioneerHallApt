@@ -1,15 +1,17 @@
 import questions from './questions.json'
+import './QAStyle.css'
 
 function Qa() {
     return (
-        <div>
-            <h2>Frequently Asked Questions</h2>
+        <div className='QAContainer'>
+            <h1>Frequently Asked Questions</h1>
             <ul>
                 {questions && questions.map(item => (
-                    <div>
-                        <b><li key={item.key} className="question">{item.question}</li></b>
+                    <li classname="FAQ">
+                        <h2 key={item.key} className="question">{item.question}
+                        </h2>
                         <p className='Answer'>{item.answer}</p>
-                    </div>
+                    </li>
                 ))}
             </ul>
         </div>

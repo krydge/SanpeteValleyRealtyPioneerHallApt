@@ -1,16 +1,60 @@
-.SocialMediaLinks li{
- 
+.SocialMediaLinks {
+    text-decoration: none !important;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.SocialMediaLinks li {
+
+    text-decoration: none !important;
+    list-style-type: none;
+    padding:3px 2vw 3px 2vw;
+    font-size: 1.5em;
+}
+
+.textwidget a {
     text-decoration: none !important;
     list-style-type: none;
 }
 
-.textwidget a{
-    text-decoration: none !important;
+.SocialMediaLinks a {
+    width: 30vw;
+    text-decoration: none;
     list-style-type: none;
+    color: #F4783B;
 }
 
-.SocialMediaLinks a{
- width: 30vw;
-    text-decoration: none !important;
+.textwidget a {
+    text-decoration: none;
     list-style-type: none;
+    color: #F4783B;
+}
+
+.ColoredFooter {
+    background-color: #003668;
+    color: #F4783B;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.FooterContainerStyle{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+@media (max-width:915px) {
+    .FooterContainerStyle{
+        display: flex; 
+        flex-direction: column;
+    }
+    .FooterContainerStyle .ContactInfo{
+        display: flex; 
+        flex-direction: row;
+        justify-content: flex-start;
+    }
 }

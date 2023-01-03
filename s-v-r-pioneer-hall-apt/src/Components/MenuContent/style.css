@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: flex-end;
     background-color: #003668;
+    font-size: 1.1em;
+
 }
 
 #MenuContentul {
@@ -13,6 +15,7 @@
     justify-content: flex-end;
     padding: 10%;
     transition: .2s;
+    
 }
 #MenuContentul button{
     display: flex;
@@ -24,6 +27,7 @@
     background-color: #003668;
     border: none;
     color:#F4783B;
+    font-size: 1.1em;
 
 }
 #MenuContentul button:hover{
@@ -45,7 +49,6 @@
     align-items: center;
     justify-content: flex-end;
     padding: 1vw;
-
     margin:0;
     text-decoration: none;
     color: #F4783B;
@@ -77,12 +80,13 @@
 
 
 
-@media (max-width:600px) {
+@media (max-width:915px) {
 
     #MenuContent {
         display: flex;
         align-items: center;
         background-color: #003668;
+
 
     }
     #MenuContentul {
@@ -91,6 +95,7 @@
         flex-direction: column;
         padding-top:0;
         padding-bottom: 0;
+
     }
 
     #MenuContentul a {
@@ -113,7 +118,7 @@
         background-color: #003668;
         border: none;
         color:#F4783B;
-    
+
     }
     #MenuContentul button:hover{
         display: flex;

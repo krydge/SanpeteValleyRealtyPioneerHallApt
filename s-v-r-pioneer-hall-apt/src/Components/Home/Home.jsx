@@ -2,12 +2,16 @@
 
 import Notifications from '../Notifications/Notifications';
 import Building from '../Building/Building'
-
-function Home() {
+import DirectionBanner from '../DirectionsBanner/DircetionBanner';
+import AmenitiesButton from '../AmenitiesButton/AmenitiesButton';
+import GalleryButton from '../GalleryButton/GalleryButton';
+function Home(params) {
 
     return (<div>
         <Notifications></Notifications>
-        <Building/>
+        {/* <DirectionBanner ></DirectionBanner> */}
+        <GalleryButton parentCallBack={params.parentCallBack}></GalleryButton>
+        <AmenitiesButton parentCallBack={params.parentCallBack}></AmenitiesButton>
     </div>)
 }
 

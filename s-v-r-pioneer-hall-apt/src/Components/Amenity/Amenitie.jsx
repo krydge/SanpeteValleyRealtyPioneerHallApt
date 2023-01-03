@@ -1,11 +1,11 @@
 import data from './amenities.json';
 import features from './community.json';
-import './amenitiesstyle.css'
+import './AmenitiesStyle.css'
 
 function Amenities() {
     return (
         <div className='Amenities'>
-            <div>
+            <div className="HEad">
                 <h2>Amenities</h2>
                 <p>Your search to find available apartments has led you to the right place!</p>
             </div>

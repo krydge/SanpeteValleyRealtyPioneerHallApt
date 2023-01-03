@@ -51,7 +51,7 @@
     justify-content: center;
 }
 .GalleryImg{
-    height: 40vh;
+width:27vw;
     margin:1vw;
 }
 
@@ -68,4 +68,8 @@
         align-items: center;flex-direction: column;
         transition: .2s;
     }
+    .GalleryImg{
+        width:90vw;
+            margin:1vw;
+        }
 }

@@ -1,0 +1,56 @@
+.floorPlanContainer {
+    position: relative;
+}
+.floorPlanContainer img{
+    width:60vw;
+}
+.floorPlanContainer .buttonLeft {
+    position: absolute;
+    height: 15%;
+    width:3vw;
+    bottom: 50%;
+    left: 20%;
+    transition: width .5s;
+    background-color: #003668;
+    opacity:.5;
+    border-radius: 0 20% 20% 0 ;
+}
+
+
+.floorPlanContainer .buttonRight {
+    position: absolute;
+    height: 15%;
+    width:3vw;
+    bottom: 50%;
+    right: 20%;
+    transition: width .5s;
+    background-color: #003668;
+    opacity:.5;
+    border-radius: 20% 0 0 20%;
+}
+.floorPlanContainer .buttonLeft:hover {
+    position: absolute;
+    height: 15%;
+    width: 6vw;
+    transition:  width .5s;
+    bottom: 50%;
+    left: 20%;
+    opacity:1;
+    padding:3px;
+    background-color: #003668;
+}
+
+.floorPlanContainer .buttonRight:hover {
+    position: absolute;
+    height: 15%;
+    bottom: 50%;
+    transition: width .5s;
+    width: 6vw;
+    right: 20%;
+    opacity:1;
+    padding:3px;
+    background-color: #003668;
+}
+.FloorContainer{
+    padding:15px
+}

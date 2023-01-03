@@ -1,0 +1,17 @@
+.QAContainer{
+    padding:10px;
+}
+.QAContainer ul{
+    list-style-type: none;
+    margin: auto;
+    padding: 30px;
+    color: #003668;
+    text-align: center;
+    width:80vw;
+
+}
+
+.QAContainer li{
+    border-bottom: solid 1px;
+
+}
