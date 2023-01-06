@@ -1,6 +1,6 @@
 [{
   "Title": "Pioneer Hall Sky View",
-  "Description": "This is an arial shot showing the Buildings buetiful location near the school and the mountains at night.",
+  "Description": "This is an arial shot showing the Buildings beautiful location near the school and the mountains at night.",
   "src": "/Assets/BuildingSkyShot.jpg",
   "Alt": "Building From the Sky"
 },
@@ -14,7 +14,7 @@
   "Title": "Pioneer Hall Street View",
   "Description": "This is the Building looking from the street.",
   "src": "/Assets/BuildingOutside2.jpg",
-  "Alt": "Building fromthe street"
+  "Alt": "Building from the street"
 },
   {
     "Title": "Shared Room",

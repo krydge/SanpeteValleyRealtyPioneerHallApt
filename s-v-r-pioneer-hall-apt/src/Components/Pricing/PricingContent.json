@@ -1,5 +1,5 @@
 [{"id":1,
-    "rentalType":"Sngle Room",
+    "rentalType":"Single Room",
     "price": 250.00,
     "unit":"USD",
     "timeSpan":"Per Month"

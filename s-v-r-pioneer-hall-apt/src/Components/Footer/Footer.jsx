@@ -54,7 +54,7 @@ function Footer(params) {
                     </div>
                     <div className="Phone" style={{ textAlign: 'left', justifyContent: 'flex-start', margin: '0px' }}>
                         <h4 style={{ margin: '0px' }}>Phone:</h4>
-                        <h3 style={{ margin: '0px' }}>435-851-1575</h3>
+                        <h3 style={{ margin: '0px' }} >435-851-1575</h3>
                     </div>
                     <div className="Phone" style={{ textAlign: 'left', justifyContent: 'flex-start', margin: '0px' }}>
                         <h4 style={{ margin: '0px' }}>Office:</h4>
