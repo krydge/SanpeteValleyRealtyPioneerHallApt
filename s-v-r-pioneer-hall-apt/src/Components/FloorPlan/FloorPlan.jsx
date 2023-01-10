@@ -23,6 +23,7 @@ function FloorPlan() {
             <div >
                 <h1>{floorPlan.Title}</h1>
                 <h2>{floorPlan.unit}{floorPlan.price}</h2>
+                <h2>{floorPlan.semesterUnit}{floorPlan.semesterPrice}</h2>
                 <h2>{floorPlan.Description}</h2>
 
                 <ApplyNow></ApplyNow>

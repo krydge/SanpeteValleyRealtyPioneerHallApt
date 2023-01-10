@@ -4,9 +4,10 @@
     "src": "/Assets/SharedFloorPlan.png",
     "Alt": "Shared Floor Plan",
     "rentalType": null,
-    "price": 325,
+    "price": 325.00,
     "unit": "Shared Room is starting at $",
-    "semesterPrice": 1250,
+    "semesterPrice": 1625.00,
+    "semesterUnit":"Semester Price for a Shared Room starting at $",
     "alt":"SharedRoom"
 
 }
@@ -17,8 +18,10 @@
     "src": "/Assets/PrivateFloorPlan.png",
     "Alt": "Private Floor Plan",
     "rentalType": null,
-    "price": 625,
-    "unit": "Private Room is starting at $",
+    "price": 625.00,
+    "unit": "Monthly Private Room is starting at $",
+    "semesterPrice": 3125.00,
+    "semesterUnit":"Semester Price for a Private Room starting at $",
     "timeSpan": null,
     "alt":"PrivateRoom"
 }]
