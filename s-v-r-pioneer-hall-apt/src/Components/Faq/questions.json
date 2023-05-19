@@ -30,7 +30,7 @@
 {
     "key":7,
     "question":"Can residents cancel their contracts?",
-    "answer":"You may not cancel the contract. But you are able to resell your lease. The student whom you are selling it to will need to fill out application and do the credit and background check just like you did."
+    "answer":"You may not cancel the contract. But you are able to resell your lease. The student whom you are selling it to will need to fill out application and do the credit and background check just like you did /."
 }
 ,
 {
@@ -43,4 +43,9 @@
     "key":10,
     "question":"Who should I contact if I have a maintenance problem?",
     "answer":"You can put in a maintenance request online via Hemlane"
+},
+{
+    "key":11,
+    "question":"Do you need a co-signer?",
+    "answer":"We would like you to have a co-signer. But if  you pay for the whole semester up front we can waive the a co-signer requirement. If you wish to pay monthly you would need a co-signer."
 }]

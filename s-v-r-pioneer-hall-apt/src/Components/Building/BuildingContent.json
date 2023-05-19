@@ -33,7 +33,7 @@
       "src": "/Assets/BedRoom2.jpg",
       "Alt": "shared room 2",
       "rentalType": "Shared Room",
-      "price": 285.00,
+      "price": 355.00,
       "unit": "USD",
       "timeSpan": "Per Month"
     }
@@ -44,7 +44,7 @@
       "src": "/Assets/BedRoom3.jpg",
       "Alt": "shared room 3",
       "rentalType": "Shared Room",
-      "price": 285.00,
+      "price": 355.00,
       "unit": "USD",
       "timeSpan": "Per Month"
     },

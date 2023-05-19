@@ -1,8 +1,9 @@
 import MenuContent from "../MenuContent/MenuContent";
 import './MenuStyle.css';
+import logo from '../../assets/PIONEER-Logo-white-copy.png'
 function Menu(params){
     return (<div id="Menu" >
-        <img onClick={()=>params.parentCallBack('/')}src={'https://pioneerhallapt.com/wp-content/uploads/2020/02/PIONEER-Logo-white-copy.png'} alt="Pioneer Hall Apartments Logo" id="MenuImage" ></img>
+        <img onClick={()=>params.parentCallBack('/')}src={logo} alt="Pioneer Hall Apartments Logo" id="MenuImage" ></img>
         <MenuContent parentCallBack={params.parentCallBack}></MenuContent>
     </div>)
 }

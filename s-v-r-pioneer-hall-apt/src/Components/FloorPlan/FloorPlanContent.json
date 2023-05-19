@@ -18,9 +18,9 @@
     "src": "/Assets/PrivateFloorPlan.png",
     "Alt": "Private Floor Plan",
     "rentalType": null,
-    "price": 625.00,
+    "price": 515.00,
     "unit": "Monthly Private Room is starting at $",
-    "semesterPrice": 3125.00,
+    "semesterPrice": 2575.00,
     "semesterUnit":"Semester Price for a Private Room starting at $",
     "timeSpan": null,
     "alt":"PrivateRoom"

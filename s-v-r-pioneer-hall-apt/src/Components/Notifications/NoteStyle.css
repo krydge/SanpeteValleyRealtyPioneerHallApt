@@ -1,33 +1,44 @@
 .NotesContainer {
     display: flex;
-    float: center; 
+    float: center;
     background-image: url('../../../public/Assets/girlFrontBuilding.jpg');
     background-repeat: no-repeat;
-    height:100vh;
+    /* height: 100vh; */
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     align-content: center;
-    color:White;
-    transition:  background-image 1s;
-    padding:40px;
+    color: White;
+    transition: background-image 1s;
+    padding: 30px;
+    padding-top:0px;
+    margin: 0px
+}
+
+.NotesContainer h1 {
+    float: left;
+    width: 40vw;
+
 }
 
 @media (max-width:915px) {
     .NotesContainer {
         display: flex;
-        float: center; 
+        float: center;
         background-image: url('../../../public/Assets/banner.png');
         background-repeat: no-repeat;
-        height:70vw;
+        height: auto;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         align-content: center;
-        color:White;
-        transition:  background-image 1s;
+        color: White;
+        transition: background-image 1s;
     }
-    .NotesContainer h1{
-        margin:20px;
+
+    .NotesContainer h1 {
+        float: left;
+        width: 90vw;
+
     }
 }
