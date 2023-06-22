@@ -31,5 +31,23 @@
     {
         "Name": "TV Lounge",
         "key": 9
+    },
+    {
+        "Name": "Ping Pong Table",
+        "key": 11
+    }
+    ,
+    {
+        "Name": "Corn-Hole",
+        "key": 12
+    },
+    {
+        "Name": "BBQ Area",
+        "key": 13
+    }
+    ,
+    {
+        "Name": "Study/Game Room",
+        "key": 14
     }
 ]
